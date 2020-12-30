@@ -1,38 +1,243 @@
-.App {
+.header-color {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.landing-background {
+  background: #56CCF2;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #2F80ED, #56CCF2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
+  margin: auto;
+  padding-bottom: 10px;
+  left: 0;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.icons {
+  height: 1rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.background-holder {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.avatar-image {
+  height: 250px;
+  padding-top: 2ex;
+  padding-bottom: 3ex;
+  border-radius: 50%;
+}
+
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 75%;
+  margin: auto;
+  margin-bottom: 5ex;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-size: 250%;
+  font-weight: bold;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.banner-text hr {
+  border-top: 1px solid white;
+  width: 50%;
+  margin:auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.edu-div hr {
+  border-top: 1px solid grey;
+  width: 80%;
+  margin:auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 150%;
+  padding: 1em;
+}
+
+.social-links {
+  display:flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+  padding-bottom: 5px;
+}
+
+.card {
+  margin:auto;
+}
+
+.layoutDiv {
+  padding: 10px;
+}
+
+.projects-div {
+  background-color: #d1cdcd;
+  min-height: 100%;
+}
+
+.contact-body {
+  margin: auto;
+  margin-top: 0;
+  background: grey;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 80%;
+  min-height: 550px;
+  color: black;
+  border: 2px solid;
+  border-color: #0c60e8;
+  margin-bottom: 20px;
+}
+
+.resume-grid {
+  text-align: center;
+  justify-content: center;
+  background: white;
+  width: 80%;
+  min-height: 550px;
+  color: black;
+  border: 2px solid;
+  border-color: #0c60e8;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-img {
+  padding-top: 10px;
+  width: 15rem;
+}
+
+.cell-body p{
+  margin: auto;
+  padding-top: 2em;
+  width: 75%;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 150%;
+}
+
+.contact-list-item {
+  font-size: 115%;
+  font-family: "Oxygen";
+}
+
+.contact-list a{
+  color: blue;
+}
+
+.work-holder {
+  align-content: center;
+  justify-content: space-between;
+  padding: 10px;
+  font-family: "Oxygen";
+  font-size: 200%;
+  line-height: 4rem;
+}
+
+.edu-div {
+  background-color: #fff;
+  min-height: 100%;
+}
+
+.header {
+  font-size: 300%;
+  font-family: "Anton";
+  text-align: center;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.resume-list-item {
+  font-size: 125%;
+  font-family: "Oxygen";
+  margin-bottom: 2px;
+  min-height: 20px;
+  color: #481985;
+  padding: 0;
+}
+
+.resume-grid p{
+  padding-top: 10px;
+  margin: 5px;
+  font-size: 125%;
+  font-family: "Oxygen";
+}
+
+.resume-grid h2 {
+  font-family: 'Anton', sans-serif;
+  margin: 5px;
+}
+
+@media screen and (max-width: 720px){
+  .cell-body {
+    width: 100%;
   }
-  to {
-    transform: rotate(360deg);
+
+  .social-links i {
+    color: white;
+    font-size: 2em;
+    
+  }
+
+  .card {
+    width: 80%;
+    align-content: center;
+    margin-top: 10px;
+  }
+
+}
+
+@media screen and (min-width: 721px){
+  .cell-body {
+    width: 50%;
+  }
+
+  .social-links i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+    margin-bottom: 20px;
+  }
+
+  .card {
+    min-width: 400px;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
   }
 }
