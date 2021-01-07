@@ -6,19 +6,16 @@ class Projects extends Component {
 	render(){
 		return (
 			<div className="projects-div">
-				<div className="header">Projects</div>
+				<div className="header">P r o j e c t s</div>
 				<div className="layoutDiv projects-grid">
 					<Card shadow={5} className="card">
-						<CardTitle style={{color: 'black', height:'176px', background:'url(https://knowiiest.tech/static/media/WhatsApp%20Image%202020-07-20%20at%2000.14.14.3198f0d5.jpeg) center / cover'}}>KNOW IIEST</CardTitle>
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://knowiiest.netlify.app/static/media/WhatsApp%20Image%202020-07-20%20at%2000.14.14.3198f0d5.jpeg) center / cover'}}>KNOW IIEST</CardTitle>
 						<CardText>Know IIEST is a website which contains the top to bottom details of IIESTS.
 						It also contains the notes and pdf of books of all years and streams.
 						<ul><li>React JS</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
 							<Link to="https://knowiiest.tech/" style={{color: 'black', margin: 'auto'}}>Website</Link>
 						</CardActions>
-						<CardMenu style={{color: 'black'}}>
-							<IconButton name="share" />
-						</CardMenu>
 					</Card>
 
 					<Card shadow={5} className="card">
@@ -29,9 +26,6 @@ class Projects extends Component {
 						<CardActions border style={{"text-align": 'center'}}>
 							<Link to="https://github.com/m-sounak/TextEditor" style={{color: 'black', margin: 'auto'}}>Github</Link>
 						</CardActions>
-						<CardMenu style={{color: 'black'}}>
-							<IconButton name="share" />
-						</CardMenu>
 					</Card>
 
 					<Card shadow={5} className="card">
@@ -41,9 +35,6 @@ class Projects extends Component {
 						<CardActions border style={{"text-align": 'center'}}>
 							<Link to="https://github.com/m-sounak/" style={{color: 'black', margin: 'auto'}}>Github</Link>
 						</CardActions>
-						<CardMenu style={{color: '#fff'}}>
-							<IconButton name="share" />
-						</CardMenu>
 					</Card>
 				</div>
 			</div>

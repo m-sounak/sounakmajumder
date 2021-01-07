@@ -6,6 +6,18 @@ class LandingPage extends Component {
 	render(){
 		return (
 			<div style={{width: '100%', margin: 'auto', "height": '100%'}} className="landing-background">
+				<ul class="circles">
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	                    <li></li>
+	            </ul>
 				<Grid className='landing-grid landing-background'>
 					<Cell col={12}>
 						<img 
