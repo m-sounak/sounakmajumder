@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {Card, CardTitle, CardText, CardActions, CardMenu, IconButton} from 'react-mdl';
+import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
 import { Link } from 'react-router-dom';
 
 class Projects extends Component {
