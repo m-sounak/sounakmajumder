@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
-import { Link } from 'react-router-dom';
 
 class Projects extends Component {
 	render(){
@@ -14,7 +13,9 @@ class Projects extends Component {
 						It also contains the notes and pdf of books of all years and streams.
 						<ul><li>React JS</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<Link to="https://knowiiest.tech/" style={{color: 'black', margin: 'auto'}}>Website</Link>
+							<a href="https://www.knowiiest.netlify.app/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Website
+							</a>
 						</CardActions>
 					</Card>
 
@@ -24,7 +25,9 @@ class Projects extends Component {
 						 Contains basic notepad functionalities.
 						<ul><li>JAVA Swing</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<Link to="https://github.com/m-sounak/TextEditor" style={{color: 'black', margin: 'auto'}}>Github</Link>
+							<a href="https://github.com/m-sounak/TextEditor" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Giithub
+							</a>
 						</CardActions>
 					</Card>
 
@@ -33,7 +36,9 @@ class Projects extends Component {
 						<CardText>A face detection application created under the supervision of trainers from IIT KGP in jupyter platform.
 						<ul><li>openCV</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<Link to="https://github.com/m-sounak/" style={{color: 'black', margin: 'auto'}}>Github</Link>
+							<a href="https://github.com/m-sounak/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Giithub
+							</a>
 						</CardActions>
 					</Card>
 				</div>
