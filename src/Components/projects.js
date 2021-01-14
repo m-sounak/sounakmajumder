@@ -26,7 +26,21 @@ class Projects extends Component {
 						<ul><li>JAVA Swing</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
 							<a href="https://github.com/m-sounak/TextEditor" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
-								Giithub
+								Github
+							</a>
+						</CardActions>
+					</Card>
+
+					<Card shadow={5} className="card">
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://previews.123rf.com/images/businessvector/businessvector1510/businessvector151000088/45788475-newspaper-icon.jpg) center / cover'}}>News App</CardTitle>
+						<CardText>A JAVA based news application similar to Google news. Can see news, search news and also share the news.
+						<ul><li>JAVA</li></ul></CardText>
+						<CardActions border style={{"text-align": 'center', padding:5px}}>
+							<a href="https://github.com/m-sounak/NewsApp" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Github
+							</a>
+							<a href="https://drive.google.com/file/d/1zqdtui7C7aj6xDwF-czYu9WT-1f64ty1/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Apk
 							</a>
 						</CardActions>
 					</Card>
@@ -36,8 +50,8 @@ class Projects extends Component {
 						<CardText>A face detection application created under the supervision of trainers from IIT KGP in jupyter platform.
 						<ul><li>openCV</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<a href="https://github.com/m-sounak/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
-								Giithub
+							<a href="https://github.com/m-sounak/Face_recognition" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Github
 							</a>
 						</CardActions>
 					</Card>
