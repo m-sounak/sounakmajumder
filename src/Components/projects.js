@@ -38,7 +38,7 @@ class Projects extends Component {
 						<CardActions border style={{"text-align": 'center', padding:"5px"}}>
 							<a href="https://github.com/m-sounak/NewsApp" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								Github
-							</a></br>
+							</a><br/>
 							<a href="https://drive.google.com/file/d/1zqdtui7C7aj6xDwF-czYu9WT-1f64ty1/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								Apk
 							</a>
