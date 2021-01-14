@@ -35,7 +35,7 @@ class Projects extends Component {
 						<CardTitle style={{color: 'black', height:'176px', background:'url(https://previews.123rf.com/images/businessvector/businessvector1510/businessvector151000088/45788475-newspaper-icon.jpg) center / cover'}}>News App</CardTitle>
 						<CardText>A JAVA based news application similar to Google news. Can see news, search news and also share the news.
 						<ul><li>JAVA</li></ul></CardText>
-						<CardActions border style={{"text-align": 'center', padding:5px}}>
+						<CardActions border style={{"text-align": 'center', padding:"5px"}}>
 							<a href="https://github.com/m-sounak/NewsApp" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								Github
 							</a>
