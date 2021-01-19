@@ -28,7 +28,7 @@
   min-width: 100%;
   min-height: 100%;
 
-}
+} 
 
 .avatar-image {
   height: 250px;
@@ -213,6 +213,10 @@
     width: 80%;
     align-content: center;
     margin-top: 10px;
+  }
+
+  .circles {
+    visibility: hidden;
   }
 
 }
