@@ -27,6 +27,11 @@ class Resume extends Component {
 						  </ListItem>
 						  <ListItem style={{paddingBottom:'0', paddingTop:'0', minHeight:'25px'}}>
 						    <ListItemContent className="resume-list-item">
+						    	<i className="fa fa-terminal" aria-hidden="true"/> Django
+						    </ListItemContent>
+						  </ListItem>
+						  <ListItem style={{paddingBottom:'0', paddingTop:'0', minHeight:'25px'}}>
+						    <ListItemContent className="resume-list-item">
 						    	<i className="fa fa-terminal" aria-hidden="true"/> C++
 						    </ListItemContent>
 						  </ListItem>

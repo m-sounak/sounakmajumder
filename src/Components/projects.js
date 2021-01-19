@@ -3,7 +3,7 @@ import {Card, CardTitle, CardText, CardActions} from 'react-mdl';
 
 class Projects extends Component {
 	render(){
-		return (
+		return ( 
 			<div className="projects-div">
 				<div className="header">P r o j e c t s</div>
 				<div className="layoutDiv projects-grid">
@@ -20,27 +20,24 @@ class Projects extends Component {
 					</Card>
 
 					<Card shadow={5} className="card">
-						<CardTitle style={{color: 'black', height:'176px', background:'url(https://www.logicbig.com/tutorials/java-swing/images/swing.png) center / cover'}}>Notepad</CardTitle>
-						<CardText>A notepad created with JAVA swing as a part of 10 days of code of NIT DGP.
-						 Contains basic notepad functionalities.
-						<ul><li>JAVA Swing</li></ul></CardText>
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://thumbs.dreamstime.com/b/online-marketing-blogging-icon-element-premium-quality-graphic-design-signs-symbols-collection-websites-web-white-144857396.jpg) center / cover'}}>Sociefy</CardTitle>
+						<CardText>A twitter styled microblogging website containing groups like Facebook.
+						Databse used is posgreSQL. Post in groups to communicate with like minded people.
+						<ul><li>Django</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<a href="https://github.com/m-sounak/TextEditor" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
-								Github
+							<a href="https://sociefy.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Website
 							</a>
 						</CardActions>
 					</Card>
 
 					<Card shadow={5} className="card">
 						<CardTitle style={{color: 'black', height:'176px', background:'url(https://previews.123rf.com/images/businessvector/businessvector1510/businessvector151000088/45788475-newspaper-icon.jpg) center / cover'}}>News App</CardTitle>
-						<CardText>A JAVA based news application similar to Google news. Can see news, search news and also share the news.
+						<CardText>Get the daily dose of news anytime in the day. A JAVA based news application similar to Google news. Can see news, search news and also share the news. 
 						<ul><li>JAVA</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center', padding:"5px"}}>
 							<a href="https://github.com/m-sounak/NewsApp" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								Github
-							</a><br/>
-							<a href="https://drive.google.com/file/d/1zqdtui7C7aj6xDwF-czYu9WT-1f64ty1/view?usp=sharing" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
-								Apk
 							</a>
 						</CardActions>
 					</Card>
@@ -51,6 +48,18 @@ class Projects extends Component {
 						<ul><li>openCV</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
 							<a href="https://github.com/m-sounak/Face_recognition" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Github
+							</a>
+						</CardActions>
+					</Card>
+
+					<Card shadow={5} className="card">
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://www.logicbig.com/tutorials/java-swing/images/swing.png) center / cover'}}>Notepad</CardTitle>
+						<CardText>A notepad created with JAVA swing as a part of 10 days of code of NIT DGP.
+						 Contains basic notepad functionalities.
+						<ul><li>JAVA Swing</li></ul></CardText>
+						<CardActions border style={{"text-align": 'center'}}>
+							<a href="https://github.com/m-sounak/TextEditor" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								Github
 							</a>
 						</CardActions>
