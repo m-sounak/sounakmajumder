@@ -22,7 +22,7 @@ class Projects extends Component {
 					<Card shadow={5} className="card">
 						<CardTitle style={{color: 'black', height:'176px', background:'url(https://thumbs.dreamstime.com/b/online-marketing-blogging-icon-element-premium-quality-graphic-design-signs-symbols-collection-websites-web-white-144857396.jpg) center / cover'}}>Sociefy</CardTitle>
 						<CardText>A twitter styled microblogging website containing groups like Facebook.
-						Databse used is posgreSQL. Post in groups to communicate with like minded people.
+						Database used is posgreSQL. Post in groups to communicate with like minded people.
 						<ul><li>Django</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
 							<a href="https://sociefy.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
