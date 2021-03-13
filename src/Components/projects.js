@@ -7,14 +7,15 @@ class Projects extends Component {
 			<div className="projects-div">
 				<div className="header">P r o j e c t s</div>
 				<div className="layoutDiv projects-grid">
+
 					<Card shadow={5} className="card">
-						<CardTitle style={{color: 'black', height:'176px', background:'url(https://knowiiest.netlify.app/static/media/WhatsApp%20Image%202020-07-20%20at%2000.14.14.3198f0d5.jpeg) center / cover'}}>KNOW IIEST</CardTitle>
-						<CardText>Know IIEST is a website which contains the top to bottom details of IIESTS.
-						It also contains the notes and pdf of books of all years and streams.
-						<ul><li>React JS</li></ul></CardText>
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://img.jagranjosh.com//imported/images/E/Articles/JEE_Main_OMR_tips.jpg) center / cover'}}>OMR Grader</CardTitle>
+						<CardText>Takes in jpeg or webcam OMR (Optical Mark Recognition) picture and grades it based on predefines results. 
+						Displays result and correct choices.
+						<ul><li>OpenCV</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<a href="https://www.knowiiest.netlify.app/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
-								Website
+							<a href="https://github.com/m-sounak/OMR_checker" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Github
 							</a>
 						</CardActions>
 					</Card>
@@ -43,6 +44,18 @@ class Projects extends Component {
 					</Card>
 
 					<Card shadow={5} className="card">
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://knowiiest.netlify.app/static/media/WhatsApp%20Image%202020-07-20%20at%2000.14.14.3198f0d5.jpeg) center / cover'}}>KNOW IIEST</CardTitle>
+						<CardText>Know IIEST is a website which contains the top to bottom details of IIESTS.
+						It also contains the notes and pdf of books of all years and streams.
+						<ul><li>React JS</li></ul></CardText>
+						<CardActions border style={{"text-align": 'center'}}>
+							<a href="https://www.knowiiest.netlify.app/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								Website
+							</a>
+						</CardActions>
+					</Card>
+
+					<Card shadow={5} className="card">
 						<CardTitle style={{color: '#fff', height:'176px', background:'url(https://specials-images.forbesimg.com/imageserve/5ee30129d8bc730007cc701c/960x0.jpg?fit=scale) center / cover'}}>Face Detection</CardTitle>
 						<CardText>A face detection application created under the supervision of trainers from IIT KGP in jupyter platform.
 						<ul><li>openCV</li></ul></CardText>
@@ -64,6 +77,7 @@ class Projects extends Component {
 							</a>
 						</CardActions>
 					</Card>
+
 				</div>
 			</div>
 		)
