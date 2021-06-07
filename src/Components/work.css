@@ -27,7 +27,6 @@
     margin-bottom: 20px;
     display: flex;
     animation-name: faded;
-    animation-duration: 2s;
     transition: 0.5s all;
 }
 
