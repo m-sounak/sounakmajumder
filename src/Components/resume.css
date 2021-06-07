@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Open+Sans&display=swap');
+
+.contact-body {
+    margin: auto;
+    margin-top: 0;
+    background: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.resume-grid {
+    text-align: center;
+    justify-content: center;
+    background: white;
+    width: 80%;
+    min-height: 550px;
+    color: black;
+    border: 2px solid;
+    border-color: #ce07ce;
+    margin-bottom: 20px !important;
+}
+
+.resume-list-item {
+    font-size: 135%;
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin-bottom: 2px;
+    min-height: 20px;
+    color: #481985;
+    padding: 0;
+    padding-bottom: 2px;
+}
+  
+.resume-grid p{
+    padding-top: 10px;
+    margin: 5px;
+    font-size: 125%;
+    font-family: 'Baloo Tammudu 2', cursive;
+}
+  
+.resume-grid h2 {
+    font-family: 'Baloo Tammudu 2', cursive;
+    margin: 5px;
+    padding-top: 20px;
+    font-size: 54px;
+    font-weight: bold;
+}
+
+.anchor {
+    text-decoration: none;
+}
+
+@keyframes faded {
+    0% {opacity: 0%;}
+    100% {opacity: 100%;}
+}
+
+.skills {
+    animation-name: faded;
+    animation-duration: 2s;
+    align-content: left;
+    text-align: left;
+}
+
+.done {
+    color: green;
+    padding-left: 2px;
+}
+
+.undone {
+    color: rgb(255, 163, 147);
+    padding-left: 2px;
+}
+
+.btn {
+    position: relative;
+    display: inline-block;
+    width: 277px;
+    height: 50px;
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 60px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration:none;
+    font-family: 'Baloo Tammudu 2', cursive !important;
+    font-weight:900;
+    font-size:21px !important;
+    letter-spacing: 0.045em;
+    text-transform: none !important;
+    padding-top: 6px !important;
+}
+
+.btn svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.btn svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 353, 0;
+    stroke-dashoffset: 0;
+    -webkit-transition: all 600ms ease;
+    transition: all 600ms ease;
+}
+ 
+.btn span{
+    background: rgb(190, 19, 148);
+    background: -moz-linear-gradient(left,  rgba(190, 19, 148,1) 0%, rgba(225,120,237,1) 100%);
+    background: -webkit-linear-gradient(left,  rgba(190, 19, 148,1) 0%,rgba(225,120,237,1) 100%);
+    background: linear-gradient(to right,  rgba(190, 19, 148,1) 0%,rgba(225,120,237,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8282', endColorstr='#e178ed',GradientType=1 );
+    
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn:hover svg rect {
+    stroke-width: 4;
+    stroke-dasharray: 196, 543;
+    stroke-dashoffset: 437;
+}
+  
+@media screen and (max-width: 720px){
+    .fillCircle {
+        display: block;
+        padding-top: 3px;
+        padding-bottom: 6px;
+        text-align: left;
+    }
+  
+    .holder {
+        opacity: 0%;
+    }
+}
+  
+@media screen and (min-width: 721px){
+    @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+
+    .fillCircle {
+        padding-left: 10px;
+        right: 0;
+    }
+
+    .holder{
+        display: none;
+    }
+
+    .mdl-list__item {
+        padding-top: 0px !important;
+        padding-bottom: 10px !important;
+    }
+      
+}

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import {Grid, Cell} from 'react-mdl';
 import avatar from '../images/cv_round.jpg';
+import './landingpage.css';
 
 class LandingPage extends Component {
 	render(){
@@ -9,12 +10,12 @@ class LandingPage extends Component {
 				<ul class="circles">
 	                    <li></li>
 	                    <li></li>
+	                    <li></li> 
 	                    <li></li>
 	                    <li></li>
 	                    <li></li>
-	                    <li></li>
-	                    <li></li>
-	                    <li></li>
+	                    <li></li> 
+	                    <li></li> 
 	                    <li></li>
 	                    <li></li>
 	            </ul>
@@ -23,9 +24,9 @@ class LandingPage extends Component {
 						<img 
 							src={avatar}
 							alt="avatar"
-							className="avatar-image"
+							className="avatar-image" 
 						/>
-
+ 
 						<div className="banner-text">
 							<p style={{"padding-bottom": '0', "padding-top":'1em'}}>Hi, I am</p>
 							<h1>Sounak Majumder</h1>
@@ -46,6 +47,7 @@ class LandingPage extends Component {
 								<a href="https://codeforces.com/profile/coder_sounak" rel="noopener noreferrer" target="_blank">
 									<i className="fa fa-code icons" aria-hidden="true" />
 								</a>
+
 							</div>
 						</div>
 					</Cell>

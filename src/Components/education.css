@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Open+Sans&display=swap');
+
+.edu-card {
+    margin:auto;
+    border-radius: 25px !important;
+}
+
+@keyframes faded {
+  0% {opacity: 0%;}
+  100% {opacity: 100%;}
+}
+  
+.edu-layoutDiv { 
+    padding: 5px;
+    padding-top: 0;
+    animation-name: faded;
+    animation-duration: 2s;
+}
+  
+.edu-div {
+    background: url(https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?size=626&ext=jpg);
+    background-color: rgb(240, 180, 255) !important;
+    min-height: 100%;
+}
+  
+.edu-header {
+    font-family: 'Baloo Tammudu 2', cursive;
+    text-align: center;
+    padding: 5px;
+}
+
+.edu-header h2 {
+  font-family: 'Baloo Tammudu 2', cursive;
+  text-align: center;
+  padding: 10px;
+  font-size: 54px;
+  font-weight: bold;
+  margin: 0px !important;
+}
+
+.edu-span {
+  display: inline-block;
+  box-shadow: 5px 5px 10px rgba(146, 2, 172, 0.4);
+  background-color: #ee8eff;
+  border-radius: 30px;
+  padding-bottom: 0;
+  padding-top: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin: 0;
+  top: 0;
+}
+
+.edu-wrapper {
+  display: inline-flex;
+}
+
+.edu-wrapper .edu-icon {
+  position: relative;
+  background-color: #fcd5fc;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 3px;
+  width: 30px;
+  height: 30px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 10px 10px rgba(247, 0, 255, 0.1);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.edu-wrapper .edu-tooltip {
+  position: absolute;
+  top: 0;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 5px 8px;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.edu-wrapper .edu-tooltip::before {
+  position: absolute;
+  content: "";
+  height: 8px;
+  width: 8px;
+  background-color: #ffffff;
+  bottom: -3px;
+  left: 50%;
+  transform: translate(-50%) rotate(45deg);
+  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.edu-wrapper .edu-icon:hover .edu-tooltip {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.edu-wrapper .edu-icon:hover span,
+.edu-wrapper .edu-icon:hover .edu-tooltip {
+  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.edu-wrapper .edu-globe:hover,
+.edu-wrapper .edu-globe:hover .edu-tooltip,
+.edu-wrapper .edu-globe:hover .edu-tooltip::before {
+  background-color: #1857df;
+  color: #ffffff;
+}
+
+.edu-small-tag {
+  text-decoration: none !important;
+  color: #1857df;
+}
+
+@media screen and (max-width: 720px){
+      
+    .edu-card {
+      width: 80%;
+      align-content: center;
+      margin-top: 10px;
+    }
+
+    .edu-wrapper {
+      display: none;
+    }
+  
+  }
+  
+  @media screen and (min-width: 721px){
+    
+  
+    .edu-card {
+      min-width: 400px;
+      align-content: center;
+      margin-bottom: 20px;
+    }
+  
+    .edu-grid {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    
+    .edu-small-anc {
+      display: none;
+    }
+  
+    @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+  
+    
+  }
