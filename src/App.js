@@ -1,23 +1,35 @@
 import './App.css';
 import {Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './Components/main';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
+
+
 
 function App() {
-  
+    
     return (
       <div className="demo-big-content">
         <Layout >
-            <Header className="header-color" style={{fontFamily: "Oxygen"}} title="Sounak Majumder" scroll>
+            <Header className="header-color" style={{fontFamily: 'Baloo Tammudu 2'}} title="Sounak Majumder" scroll>
                 <Navigation>
-                    <Link to="/resume" style={{color: '#001c82', "font-weight": 'bold', fontFamily:"Oxygen", fontSize:'125%'}}>Resume</Link>
-                    <Link to="/education" style={{color: '#001c82', "font-weight": 'bold', fontFamily:"Oxygen", fontSize:'125%'}}>Education</Link>
-                    <Link to="/projects" style={{color: '#001c82', "font-weight": 'bold', fontFamily:"Oxygen", fontSize:'125%'}}>Projects</Link>
-                    <Link to="/work" style={{color: '#001c82', "font-weight": 'bold', fontFamily:"Oxygen", fontSize:'125%'}}>Experience</Link>
-                    <Link to="/contacts" style={{color: '#001c82', "font-weight": 'bold', fontFamily:"Oxygen", fontSize:'125%'}}>Contact Me</Link>
+                    <NavLink activeClassName="active" className="link" to="/resume">
+                        Resume
+                    </NavLink>
+                    <NavLink activeClassName="active" className="link" to="/education">
+                        Education
+                    </NavLink>
+                    <NavLink activeClassName="active" className="link" to="/projects">
+                        Projects
+                    </NavLink>
+                    <NavLink activeClassName="active" className="link" to="/work">
+                        Experience
+                    </NavLink>
+                    <NavLink activeClassName="active" className="link" to="/contacts">
+                        Contact Me
+                    </NavLink>
                 </Navigation>
             </Header>
-            <Drawer title="Options">
+            <Drawer title="Navigate" className="drawer">
                 <Navigation>
                     <Link to="/">Home</Link>
                     <Link to="/resume">Resume</Link>
@@ -25,6 +37,7 @@ function App() {
                     <Link to="/projects">Projects</Link>
                     <Link to="/work">Experience</Link>
                     <Link to="/contacts">Contact Me</Link>
+                    
                 </Navigation>
             </Drawer>
             <Content>
@@ -34,6 +47,7 @@ function App() {
         </Layout>
       </div>
     );
+    
   
 }
 
