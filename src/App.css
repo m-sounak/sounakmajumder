@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Open+Sans&display=swap');
 
 .header-color {
-    background: #cc00ff;  
-    background: -webkit-linear-gradient(to right, #d900ff, #cc00ff);  
-    background: linear-gradient(to right, #d900ff, #cc00ff); 
+  background: #00aeff;  
+  background: -webkit-linear-gradient(to right, #00aeff, #0077ff);  
+  background: linear-gradient(to right, #00aeff, #0077ff); 
   /*
   background: #56CCF2;  
   background: -webkit-linear-gradient(to right, #2F80ED, #56CCF2);  
@@ -27,20 +27,20 @@
 .active {
   /*color: white !important;
   text-shadow: 1px 1px #000000 !important;*/
-  text-shadow: 1px 1px #ffa7da !important;
-  color: #5c0758 !important;
-  border-bottom: 5px solid #8a0083;
+  text-shadow: 1px 1px #c3e2ff !important;
+  color: #050046 !important;
+  border-bottom: 5px solid #05245c;
 }
 
 .link:hover {
-  text-shadow: 1px 1px #ffa7da !important;
-  color: #5c0758 !important;
+  text-shadow: 1px 1px #c3e2ff !important;
+  color: #050046 !important;
 }
 
 
 @media screen and (max-width: 720px){
   .mdl-layout__drawer-button {
-    background-color: #d900ff;
+    background-color: #00aeff;
     border-radius: 100%;
   }
 }

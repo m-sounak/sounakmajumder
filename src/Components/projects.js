@@ -33,12 +33,13 @@ class Projects extends Component {
 					</Card>
 
 					<Card shadow={5} className="card">
-						<CardTitle style={{color: 'black', height:'176px', background:'url(https://thumbs.dreamstime.com/b/online-marketing-blogging-icon-element-premium-quality-graphic-design-signs-symbols-collection-websites-web-white-144857396.jpg) center / cover'}}>Sociefy</CardTitle>
-						<CardText className="card-text">A twitter styled microblogging website containing groups like Facebook.
-						Database used is postgreSQL. Post in groups to communicate with like minded people.
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://www.graphicsprings.com/filestorage/stencils/1cf0e62090ebd950855b702c81587979.png?width=500&height=500) center / cover'}}>TalkAndBuy</CardTitle>
+						<CardText className="card-text">A room chat application. It keeps track of recent messages and gives product 
+						recommendations based on it.
+						Database used is postgreSQL. 
 						<ul><li>Django</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
-							<a href="https://sociefy.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+							<a href="https://talkandbuy.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								<div className="pro-wrapper">
 									<div className="pro-icon pro-globe">
 										<div className="pro-tooltip">Website</div>
@@ -82,6 +83,28 @@ class Projects extends Component {
 						<ul><li>React JS</li></ul></CardText>
 						<CardActions border style={{"text-align": 'center'}}>
 							<a href="https://www.knowiiest.netlify.app/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								<div className="pro-wrapper">
+									<div className="pro-icon pro-globe">
+										<div className="pro-tooltip">Website</div>
+										<span><i className="fa fa-globe"></i></span>
+									</div>
+								</div>
+							</a>
+							<a href="https://www.ststephensschool.co.in/" rel="noopener noreferrer" target="_blank" className="pro-small-anc" style={{textDecoration: 'none'}}>
+								<div className="pro-small-container">
+									<div className="pro-small-tag">Website</div>
+								</div>
+							</a>
+						</CardActions>
+					</Card>
+					
+					<Card shadow={5} className="card">
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://thumbs.dreamstime.com/b/online-marketing-blogging-icon-element-premium-quality-graphic-design-signs-symbols-collection-websites-web-white-144857396.jpg) center / cover'}}>Sociefy</CardTitle>
+						<CardText className="card-text">A twitter styled microblogging website containing groups like Facebook.
+						Database used is postgreSQL. Post in groups to communicate with like minded people.
+						<ul><li>Django</li></ul></CardText>
+						<CardActions border style={{"text-align": 'center'}}>
+							<a href="https://sociefy.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
 								<div className="pro-wrapper">
 									<div className="pro-icon pro-globe">
 										<div className="pro-tooltip">Website</div>

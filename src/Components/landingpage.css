@@ -4,9 +4,9 @@
   
 .landing-background {
     
-    background: #cc00ff;  
-    background: -webkit-linear-gradient(to right, #d900ff, #cc00ff);  
-    background: linear-gradient(to right, #d900ff, #cc00ff); 
+    background: #00aeff;  
+    background: -webkit-linear-gradient(to right, #00aeff, #0077ff);  
+    background: linear-gradient(to right, #00aeff, #0077ff); 
     /*
     background: rgba(255,130,130,1);  
     background: -webkit-linear-gradient(to right, rgb(255, 55, 165), rgba(255,130,130,1));  
@@ -85,7 +85,7 @@
 }
 
 .social-links i:hover {
-    color: rgb(204, 0, 255);
+    color: rgb(0, 38, 255);
 }
 
 @media screen and (max-width: 720px){
@@ -98,7 +98,7 @@
     }
    
     .social-links i:hover {
-        color: rgb(255, 0, 221);
+        color: rgb(0, 38, 255);
     }
 
     .circles {
