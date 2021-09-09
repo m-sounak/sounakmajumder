@@ -26,8 +26,6 @@
     border-color: purple;
     margin-bottom: 20px;
     display: flex;
-    animation-name: faded;
-    transition: 0.5s all;
 }
 
 .work-grid h2 {

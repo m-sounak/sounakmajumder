@@ -60,8 +60,6 @@
 }
 
 .skills {
-    animation-name: faded;
-    animation-duration: 2s;
     align-content: left;
     text-align: left;
 }
