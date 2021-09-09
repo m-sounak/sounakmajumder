@@ -121,7 +121,7 @@ class Projects extends Component {
 					</Card>
 
 					<Card shadow={5} className="card">
-						<CardTitle style={{color: '#fff', height:'176px', background:'url(https://www.theladders.com/wp-content/uploads/resume-190916-800x450.jpg) center / cover'}}>Resume Creator</CardTitle>
+						<CardTitle style={{color: 'black', height:'176px', background:'url(https://www.theladders.com/wp-content/uploads/resume-190916-800x450.jpg) center / cover'}}>Resume Creator</CardTitle>
 						<CardText className="card-text">A web application that enables you to create your own reumes.
 						Enter your details and the application generates a eye catching resume ready to get shortlisted.
 						<ul><li>Django</li></ul></CardText>
