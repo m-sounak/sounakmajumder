@@ -53,11 +53,6 @@
     font-family: 'Baloo Tammudu 2', cursive;
     align-content: center;
 }
-
-.contact-list {
-  animation-name: faded;
-  animation-duration: 3s;
-}
   
 .contact-list a{
     /*color: #ce07ce;*/
