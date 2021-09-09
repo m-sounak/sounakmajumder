@@ -121,6 +121,28 @@ class Projects extends Component {
 					</Card>
 
 					<Card shadow={5} className="card">
+						<CardTitle style={{color: '#fff', height:'176px', background:'url(https://www.theladders.com/wp-content/uploads/resume-190916-800x450.jpg) center / cover'}}>Resume Creator</CardTitle>
+						<CardText className="card-text">A web application that enables you to create your own reumes.
+						Enter your details and the application generates a eye catching resume ready to get shortlisted.
+						<ul><li>Django</li></ul></CardText>
+						<CardActions border style={{"text-align": 'center'}}>
+							<a href="https://resume-constructor-app.herokuapp.com/" rel="noopener noreferrer" target="_blank" style={{color: 'black', margin: 'auto'}}>
+								<div className="pro-wrapper">
+									<div className="pro-icon pro-globe">
+										<div className="pro-tooltip">Website</div>
+										<span><i className="fa fa-globe"></i></span>
+									</div>
+								</div>
+							</a>
+							<a href="https://www.ststephensschool.co.in/" rel="noopener noreferrer" target="_blank" className="pro-small-anc" style={{textDecoration: 'none'}}>
+								<div className="pro-small-container">
+									<div className="pro-small-tag">Github</div>
+								</div>
+							</a>
+						</CardActions>
+					</Card>
+
+					<Card shadow={5} className="card">
 						<CardTitle style={{color: '#fff', height:'176px', background:'url(https://specials-images.forbesimg.com/imageserve/5ee30129d8bc730007cc701c/960x0.jpg?fit=scale) center / cover'}}>Face Detection</CardTitle>
 						<CardText className="card-text">A face detection application that traces human faces. Created under the supervision of trainers from IIT KGP in jupyter platform.
 						<ul><li>openCV</li></ul></CardText>
