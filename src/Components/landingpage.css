@@ -23,12 +23,12 @@
 .icons {
     height: 1rem;
 }
-
+/*
 @keyframes faded {
     0% {opacity: 0%;}
     100% {opacity: 100%;}
 }
-
+*/
 .avatar-image {
     height: 250px;
     padding-top: 2ex;

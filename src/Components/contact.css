@@ -24,12 +24,12 @@
     border-color: #ce07ce !important;
     margin-bottom: 20px;
 }
-
+/*
 @keyframes faded {
   0% {opacity: 0%;}
   100% {opacity: 100%;}
 }
-
+*/
 .contact-grid h2 {
   font-family: 'Baloo Tammudu 2', cursive;
   font-size: 54px;
